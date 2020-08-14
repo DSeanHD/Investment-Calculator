@@ -1,0 +1,30 @@
+#main {
+    text-align: center;
+    margin: 150px 400px 0px 400px;
+    background-color: rgb(212, 209, 209);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#ans-main {
+    background-color: white;
+    margin: 0px 100px 0px 100px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: monospace;
+    color: rgb(0, 0, 0);
+}
+
+input[type=text] {
+    float: right;
+    width: 20%;
+    margin-right: 50px;
+}
+
+div {
+    font-family: monospace;
+    font-size: 15px;
+}

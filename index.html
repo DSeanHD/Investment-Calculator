@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Investment Calculator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <form id="form" onsubmit="event.preventDefault()">
+            <div id="main">
+                <h1>Investment Calculator</h1>
+                <div>Principal: <input id="principal" type="text"></div>
+                <br>
+                <div>Rate: <input id="rate" type="text"></div>
+                <br>
+                <div>Years: <input id="years" type="text"></div>
+                <br>
+                <div>Number of Times per Period: <input id="period" type="text"></div>
+                <br>
+                <button onclick="ans()" id="calc">Calculate</button>
+                <input type="reset">
+                <br><br>
+                <div id="ans-main">
+                    <span>Ans: $</span><span id="ans"></span>
+                </div>
+            </div>
+        </form>
+        <script src="script.js"></script>
+    </body>
+</html>
